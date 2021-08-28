@@ -29,7 +29,9 @@ $
 
 - [x] Try to think of it as adding/retrieving key-value structures and refactor code accordingly
 
-- [ ] Add API error types
+- [x] Add API error types
+
+- [x] Make it safe to manipulate non null terminated strings
 
 - [ ] Add hashmap definition macro to easily pass context between function calls
 
