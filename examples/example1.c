@@ -8,7 +8,7 @@
 #include <stdbool.h>
 #include <string.h>
 
-#define HASH_TABLE_SIZE 8
+#define HASH_MAP_SIZE 8
 #define STRING_MAX_LEN 32
 
 typedef struct
@@ -18,7 +18,7 @@ typedef struct
   char *pcJob;
 }person_t;
 
-person_t tstTable[HASH_TABLE_SIZE];
+person_t tstTable[HASH_MAP_SIZE];
 
 uint32_t calculate_hash(char *pcString)
 {
